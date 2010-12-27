@@ -1,0 +1,178 @@
+INFO  2010-12-26 20:37:15,092 - ************************************************************** 
+INFO  2010-12-26 20:37:15,092 - Starting Jakarta Velocity v1.4
+INFO  2010-12-26 20:37:15,092 - RuntimeInstance initializing.
+INFO  2010-12-26 20:37:15,092 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2010-12-26 20:37:15,096 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2010-12-26 20:37:15,098 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2010-12-26 20:37:15,098 - FileResourceLoader : initialization starting.
+INFO  2010-12-26 20:37:15,098 - FileResourceLoader : adding path '.'
+INFO  2010-12-26 20:37:15,098 - FileResourceLoader : initialization complete.
+INFO  2010-12-26 20:37:15,098 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,099 - ClasspathResourceLoader : initialization starting.
+INFO  2010-12-26 20:37:15,099 - ClasspathResourceLoader : initialization complete.
+INFO  2010-12-26 20:37:15,100 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2010-12-26 20:37:15,100 - Default ResourceManager initialization complete.
+INFO  2010-12-26 20:37:15,101 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2010-12-26 20:37:15,103 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2010-12-26 20:37:15,105 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2010-12-26 20:37:15,106 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2010-12-26 20:37:15,107 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2010-12-26 20:37:15,150 - Created: 20 parsers.
+INFO  2010-12-26 20:37:15,155 - Velocimacro : initialization starting.
+INFO  2010-12-26 20:37:15,155 - Velocimacro : adding VMs from VM library template : templates/spring/RenderPreconditions.vm
+INFO  2010-12-26 20:37:15,182 - Velocimacro : added new VM : #renderPreconditions( operation ) : source = templates/spring/RenderPreconditions.vm
+INFO  2010-12-26 20:37:15,185 - ResourceManager : found templates/spring/RenderPreconditions.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,185 - Velocimacro :  VM library template macro registration complete.
+INFO  2010-12-26 20:37:15,185 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2010-12-26 20:37:15,186 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2010-12-26 20:37:15,186 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2010-12-26 20:37:15,186 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2010-12-26 20:37:15,186 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2010-12-26 20:37:15,186 - Velocimacro : initialization complete.
+INFO  2010-12-26 20:37:15,186 - Velocity successfully started.
+INFO  2010-12-26 20:37:15,231 - ResourceManager : found templates/spring/SpringServiceLocator.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,267 - ResourceManager : found templates/spring/SpringService.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,329 - ResourceManager : found templates/spring/SpringServiceBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,382 - ResourceManager : found templates/spring/SpringPrincipalStore.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,392 - ResourceManager : found templates/spring/SpringServiceImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,399 - ResourceManager : found templates/spring/DefaultServiceException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,442 - ResourceManager : found templates/spring/SpringDao.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:15,442 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:15,583 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:15,607 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:15,724 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:15,854 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,029 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,087 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,111 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,136 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,177 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,221 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,373 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,516 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,544 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,574 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,628 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,668 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,698 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,787 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,818 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,867 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,931 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,965 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:16,994 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:17,076 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-26 20:37:17,265 - ResourceManager : found templates/spring/hibernate/SpringHibernateDaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,242 - ResourceManager : found templates/spring/hibernate/SpringHibernateDaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,361 - ResourceManager : found templates/spring/ejb/SpringSessionBean.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,374 - ResourceManager : found templates/spring/ejb/SpringSessionLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,385 - ResourceManager : found templates/spring/ejb/SpringSessionLocalHome.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,399 - ResourceManager : found templates/spring/applicationContext.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,449 - ResourceManager : found templates/spring/applicationContext-dataSource.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,456 - ResourceManager : found templates/spring/applicationContext-localDataSource.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,505 - ResourceManager : found templates/spring/ejb/applicationContext-remoteEjb.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,510 - ResourceManager : found templates/spring/ejb/applicationContext-localEjb.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,515 - ResourceManager : found templates/spring/ejb/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,530 - ResourceManager : found templates/spring/ejb/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,544 - ResourceManager : found templates/spring/beanRefFactory.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,560 - ResourceManager : found templates/spring/hibernate/search/SearchParameter.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,567 - ResourceManager : found templates/spring/hibernate/search/Search.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,577 - ResourceManager : found templates/spring/hibernate/search/PropertySearch.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,581 - ResourceManager : found templates/spring/paging/PaginationResult.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,589 - ResourceManager : found templates/spring/hibernate/HibernateSearch.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:20,597 - ResourceManager : found templates/spring/hibernate/HibernateSearchProperties.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:21,444 - ResourceManager : found templates/spring/hibernate/HibernateSearchConfiguration.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:21,450 - ResourceManager : found templates/spring/hibernate/HibernateSearchParameter.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:21,459 - ResourceManager : found templates/spring/presentation/hibernate/OpenSessionInViewFilter.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:21,461 - ResourceManager : found templates/spring/SpringBeanLocator.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:21,464 - ResourceManager : found templates/spring/remoting/RemoteDispatcherServlet.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:21,466 - ResourceManager : found templates/spring/remoting/RemoteWebApplicationContext.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:33,902 - ************************************************************** 
+INFO  2010-12-27 10:44:33,924 - Starting Jakarta Velocity v1.4
+INFO  2010-12-27 10:44:33,924 - RuntimeInstance initializing.
+INFO  2010-12-27 10:44:33,924 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2010-12-27 10:44:33,928 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2010-12-27 10:44:33,936 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2010-12-27 10:44:33,936 - FileResourceLoader : initialization starting.
+INFO  2010-12-27 10:44:33,936 - FileResourceLoader : adding path '.'
+INFO  2010-12-27 10:44:33,936 - FileResourceLoader : initialization complete.
+INFO  2010-12-27 10:44:33,936 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:33,936 - ClasspathResourceLoader : initialization starting.
+INFO  2010-12-27 10:44:33,936 - ClasspathResourceLoader : initialization complete.
+INFO  2010-12-27 10:44:33,937 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2010-12-27 10:44:33,937 - Default ResourceManager initialization complete.
+INFO  2010-12-27 10:44:33,939 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2010-12-27 10:44:33,940 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2010-12-27 10:44:33,941 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2010-12-27 10:44:33,943 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2010-12-27 10:44:33,943 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2010-12-27 10:44:33,976 - Created: 20 parsers.
+INFO  2010-12-27 10:44:33,980 - Velocimacro : initialization starting.
+INFO  2010-12-27 10:44:33,980 - Velocimacro : adding VMs from VM library template : templates/spring/RenderPreconditions.vm
+INFO  2010-12-27 10:44:34,010 - Velocimacro : added new VM : #renderPreconditions( operation ) : source = templates/spring/RenderPreconditions.vm
+INFO  2010-12-27 10:44:34,014 - ResourceManager : found templates/spring/RenderPreconditions.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:34,014 - Velocimacro :  VM library template macro registration complete.
+INFO  2010-12-27 10:44:34,014 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2010-12-27 10:44:34,014 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2010-12-27 10:44:34,014 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2010-12-27 10:44:34,014 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2010-12-27 10:44:34,014 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2010-12-27 10:44:34,014 - Velocimacro : initialization complete.
+INFO  2010-12-27 10:44:34,014 - Velocity successfully started.
+INFO  2010-12-27 10:44:34,048 - ResourceManager : found templates/spring/SpringServiceLocator.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:34,094 - ResourceManager : found templates/spring/SpringService.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:34,153 - ResourceManager : found templates/spring/SpringServiceBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:34,206 - ResourceManager : found templates/spring/SpringPrincipalStore.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:34,214 - ResourceManager : found templates/spring/SpringServiceImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:34,232 - ResourceManager : found templates/spring/DefaultServiceException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:34,259 - ResourceManager : found templates/spring/SpringDao.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:34,259 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,421 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,446 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,557 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,682 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,851 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,902 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,925 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,951 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:34,989 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,031 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,177 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,317 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,343 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,370 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,420 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,459 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,489 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,518 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,543 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,586 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,649 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,683 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,705 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,784 - RHS of #set statement is null. Context will not be modified. templates/spring/SpringDao.vsl [line 11, column 1]
+INFO  2010-12-27 10:44:35,849 - ResourceManager : found templates/spring/hibernate/SpringHibernateDaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,750 - ResourceManager : found templates/spring/hibernate/SpringHibernateDaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,819 - ResourceManager : found templates/spring/ejb/SpringSessionBean.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,833 - ResourceManager : found templates/spring/ejb/SpringSessionLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,843 - ResourceManager : found templates/spring/ejb/SpringSessionLocalHome.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,857 - ResourceManager : found templates/spring/applicationContext.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,904 - ResourceManager : found templates/spring/applicationContext-dataSource.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,911 - ResourceManager : found templates/spring/applicationContext-localDataSource.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,951 - ResourceManager : found templates/spring/ejb/applicationContext-remoteEjb.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,951 - ResourceManager : found templates/spring/ejb/applicationContext-localEjb.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,961 - ResourceManager : found templates/spring/ejb/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,971 - ResourceManager : found templates/spring/ejb/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:38,986 - ResourceManager : found templates/spring/beanRefFactory.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:39,003 - ResourceManager : found templates/spring/hibernate/search/SearchParameter.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:39,011 - ResourceManager : found templates/spring/hibernate/search/Search.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:39,019 - ResourceManager : found templates/spring/hibernate/search/PropertySearch.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:39,022 - ResourceManager : found templates/spring/paging/PaginationResult.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:39,029 - ResourceManager : found templates/spring/hibernate/HibernateSearch.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:39,039 - ResourceManager : found templates/spring/hibernate/HibernateSearchProperties.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:40,005 - ResourceManager : found templates/spring/hibernate/HibernateSearchConfiguration.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:40,015 - ResourceManager : found templates/spring/hibernate/HibernateSearchParameter.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:40,026 - ResourceManager : found templates/spring/presentation/hibernate/OpenSessionInViewFilter.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:40,026 - ResourceManager : found templates/spring/SpringBeanLocator.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:40,026 - ResourceManager : found templates/spring/remoting/RemoteDispatcherServlet.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:40,036 - ResourceManager : found templates/spring/remoting/RemoteWebApplicationContext.java.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader

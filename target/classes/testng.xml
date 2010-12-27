@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AppStore Test Suite" verbose="1">
+  <test name="Services Test">
+    <classes>
+       <!--
+       <class name="cn.edu.uestc.appstore.service.UserServiceTest" />
+       <class name="cn.edu.uestc.appstore.service.TimeTrackingServiceTest" />
+        -->
+    </classes>
+  </test>
+</suite>

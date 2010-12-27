@@ -1,0 +1,168 @@
+INFO  2010-12-26 20:37:39,862 - ************************************************************** 
+INFO  2010-12-26 20:37:39,863 - Starting Jakarta Velocity v1.4
+INFO  2010-12-26 20:37:39,863 - RuntimeInstance initializing.
+INFO  2010-12-26 20:37:39,863 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2010-12-26 20:37:39,863 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2010-12-26 20:37:39,863 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2010-12-26 20:37:39,863 - FileResourceLoader : initialization starting.
+INFO  2010-12-26 20:37:39,863 - FileResourceLoader : adding path '.'
+INFO  2010-12-26 20:37:39,863 - FileResourceLoader : initialization complete.
+INFO  2010-12-26 20:37:39,863 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:39,863 - ClasspathResourceLoader : initialization starting.
+INFO  2010-12-26 20:37:39,863 - ClasspathResourceLoader : initialization complete.
+INFO  2010-12-26 20:37:39,865 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2010-12-26 20:37:39,865 - Default ResourceManager initialization complete.
+INFO  2010-12-26 20:37:39,865 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2010-12-26 20:37:39,865 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2010-12-26 20:37:39,865 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2010-12-26 20:37:39,866 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2010-12-26 20:37:39,866 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2010-12-26 20:37:39,867 - Created: 20 parsers.
+INFO  2010-12-26 20:37:39,867 - Velocimacro : initialization starting.
+INFO  2010-12-26 20:37:39,867 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2010-12-26 20:37:39,868 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2010-12-26 20:37:39,868 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2010-12-26 20:37:39,868 - Velocimacro :  VM library template macro registration complete.
+INFO  2010-12-26 20:37:39,868 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2010-12-26 20:37:39,868 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2010-12-26 20:37:39,868 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2010-12-26 20:37:39,868 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2010-12-26 20:37:39,868 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2010-12-26 20:37:39,868 - Velocimacro : initialization complete.
+INFO  2010-12-26 20:37:39,868 - Velocity successfully started.
+INFO  2010-12-26 20:37:39,877 - ResourceManager : found templates/java/Service.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:39,902 - ResourceManager : found templates/java/ServiceImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:37:39,902 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 10, column 1]
+INFO  2010-12-26 20:37:39,907 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:37:39,908 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:37:39,909 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:37:39,909 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:37:39,910 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:37:39,911 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:37:39,916 - ResourceManager : found templates/java/ValueObject.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:43:19,492 - ************************************************************** 
+INFO  2010-12-26 20:43:19,492 - Starting Jakarta Velocity v1.4
+INFO  2010-12-26 20:43:19,492 - RuntimeInstance initializing.
+INFO  2010-12-26 20:43:19,492 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2010-12-26 20:43:19,492 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2010-12-26 20:43:19,492 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2010-12-26 20:43:19,492 - FileResourceLoader : initialization starting.
+INFO  2010-12-26 20:43:19,492 - FileResourceLoader : adding path '.'
+INFO  2010-12-26 20:43:19,492 - FileResourceLoader : initialization complete.
+INFO  2010-12-26 20:43:19,493 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:43:19,493 - ClasspathResourceLoader : initialization starting.
+INFO  2010-12-26 20:43:19,493 - ClasspathResourceLoader : initialization complete.
+INFO  2010-12-26 20:43:19,493 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2010-12-26 20:43:19,493 - Default ResourceManager initialization complete.
+INFO  2010-12-26 20:43:19,493 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2010-12-26 20:43:19,493 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2010-12-26 20:43:19,493 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2010-12-26 20:43:19,493 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2010-12-26 20:43:19,494 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2010-12-26 20:43:19,499 - Created: 20 parsers.
+INFO  2010-12-26 20:43:19,500 - Velocimacro : initialization starting.
+INFO  2010-12-26 20:43:19,500 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2010-12-26 20:43:19,500 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2010-12-26 20:43:19,500 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2010-12-26 20:43:19,500 - Velocimacro :  VM library template macro registration complete.
+INFO  2010-12-26 20:43:19,500 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2010-12-26 20:43:19,500 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2010-12-26 20:43:19,500 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2010-12-26 20:43:19,501 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2010-12-26 20:43:19,501 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2010-12-26 20:43:19,501 - Velocimacro : initialization complete.
+INFO  2010-12-26 20:43:19,501 - Velocity successfully started.
+INFO  2010-12-26 20:43:19,505 - ResourceManager : found templates/java/Service.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:43:19,522 - ResourceManager : found templates/java/ServiceImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 20:43:19,522 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 10, column 1]
+INFO  2010-12-26 20:43:19,531 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:43:19,532 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:43:19,533 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:43:19,534 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:43:19,535 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:43:19,535 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 20:43:19,542 - ResourceManager : found templates/java/ValueObject.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 21:00:50,980 - ************************************************************** 
+INFO  2010-12-26 21:00:50,980 - Starting Jakarta Velocity v1.4
+INFO  2010-12-26 21:00:50,980 - RuntimeInstance initializing.
+INFO  2010-12-26 21:00:50,980 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2010-12-26 21:00:50,980 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2010-12-26 21:00:50,981 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2010-12-26 21:00:50,981 - FileResourceLoader : initialization starting.
+INFO  2010-12-26 21:00:50,981 - FileResourceLoader : adding path '.'
+INFO  2010-12-26 21:00:50,981 - FileResourceLoader : initialization complete.
+INFO  2010-12-26 21:00:50,981 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 21:00:50,981 - ClasspathResourceLoader : initialization starting.
+INFO  2010-12-26 21:00:50,981 - ClasspathResourceLoader : initialization complete.
+INFO  2010-12-26 21:00:50,981 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2010-12-26 21:00:50,981 - Default ResourceManager initialization complete.
+INFO  2010-12-26 21:00:50,981 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2010-12-26 21:00:50,982 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2010-12-26 21:00:50,982 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2010-12-26 21:00:50,982 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2010-12-26 21:00:50,982 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2010-12-26 21:00:50,986 - Created: 20 parsers.
+INFO  2010-12-26 21:00:50,986 - Velocimacro : initialization starting.
+INFO  2010-12-26 21:00:50,986 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2010-12-26 21:00:50,986 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2010-12-26 21:00:50,987 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2010-12-26 21:00:50,987 - Velocimacro :  VM library template macro registration complete.
+INFO  2010-12-26 21:00:50,987 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2010-12-26 21:00:50,987 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2010-12-26 21:00:50,987 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2010-12-26 21:00:50,987 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2010-12-26 21:00:50,987 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2010-12-26 21:00:50,987 - Velocimacro : initialization complete.
+INFO  2010-12-26 21:00:50,987 - Velocity successfully started.
+INFO  2010-12-26 21:00:50,991 - ResourceManager : found templates/java/Service.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 21:00:51,007 - ResourceManager : found templates/java/ServiceImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-26 21:00:51,007 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 10, column 1]
+INFO  2010-12-26 21:00:51,015 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 21:00:51,017 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 21:00:51,017 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 21:00:51,018 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 21:00:51,020 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 21:00:51,021 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-26 21:00:51,029 - ResourceManager : found templates/java/ValueObject.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:57,616 - ************************************************************** 
+INFO  2010-12-27 10:44:57,650 - Starting Jakarta Velocity v1.4
+INFO  2010-12-27 10:44:57,651 - RuntimeInstance initializing.
+INFO  2010-12-27 10:44:57,651 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2010-12-27 10:44:57,651 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2010-12-27 10:44:57,651 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2010-12-27 10:44:57,651 - FileResourceLoader : initialization starting.
+INFO  2010-12-27 10:44:57,651 - FileResourceLoader : adding path '.'
+INFO  2010-12-27 10:44:57,651 - FileResourceLoader : initialization complete.
+INFO  2010-12-27 10:44:57,651 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:57,651 - ClasspathResourceLoader : initialization starting.
+INFO  2010-12-27 10:44:57,651 - ClasspathResourceLoader : initialization complete.
+INFO  2010-12-27 10:44:57,651 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2010-12-27 10:44:57,651 - Default ResourceManager initialization complete.
+INFO  2010-12-27 10:44:57,652 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2010-12-27 10:44:57,652 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2010-12-27 10:44:57,652 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2010-12-27 10:44:57,652 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2010-12-27 10:44:57,652 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2010-12-27 10:44:57,653 - Created: 20 parsers.
+INFO  2010-12-27 10:44:57,653 - Velocimacro : initialization starting.
+INFO  2010-12-27 10:44:57,653 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2010-12-27 10:44:57,654 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2010-12-27 10:44:57,654 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2010-12-27 10:44:57,654 - Velocimacro :  VM library template macro registration complete.
+INFO  2010-12-27 10:44:57,654 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2010-12-27 10:44:57,654 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2010-12-27 10:44:57,654 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2010-12-27 10:44:57,655 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2010-12-27 10:44:57,655 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2010-12-27 10:44:57,655 - Velocimacro : initialization complete.
+INFO  2010-12-27 10:44:57,655 - Velocity successfully started.
+INFO  2010-12-27 10:44:57,658 - ResourceManager : found templates/java/Service.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:57,683 - ResourceManager : found templates/java/ServiceImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2010-12-27 10:44:57,683 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 10, column 1]
+INFO  2010-12-27 10:44:57,688 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-27 10:44:57,689 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-27 10:44:57,690 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-27 10:44:57,691 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-27 10:44:57,692 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-27 10:44:57,693 - RHS of #set statement is null. Context will not be modified. templates/java/ServiceImpl.vsl [line 35, column 1]
+INFO  2010-12-27 10:44:57,697 - ResourceManager : found templates/java/ValueObject.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader

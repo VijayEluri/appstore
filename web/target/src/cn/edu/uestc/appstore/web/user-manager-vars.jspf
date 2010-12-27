@@ -1,0 +1,5 @@
+<div id="pageVariables">
+    <c:catch>
+        <c:set var="userVOs" value="${form.userVOs}" scope="request"/>
+    </c:catch>
+</div>

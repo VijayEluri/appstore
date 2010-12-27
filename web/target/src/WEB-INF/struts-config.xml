@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+    "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+
+    <!-- display-name merge point -->
+
+    <!-- description merge point -->
+
+    <data-sources>
+        <!-- data-sources merge point -->
+    </data-sources>
+
+    <form-beans>
+        <!-- form-beans merge-point -->
+        <form-bean
+            name="userManagerUserManagerDeleteForm"
+            type="cn.edu.uestc.appstore.web.UserManagerDeleteFormImpl" />
+        <form-bean
+            name="userManagerUserManagerEditForm"
+            type="cn.edu.uestc.appstore.web.UserManagerEditFormImpl" />
+        <form-bean
+            name="userManagerUserManagerForm"
+            type="cn.edu.uestc.appstore.web.UserManagerFormImpl" />
+    </form-beans>
+
+    <global-exceptions>
+        <!-- global-exceptions merge point -->
+        <exception
+            handler="org.andromda.presentation.bpm4struts.PatternMatchingExceptionHandler"
+            type="java.lang.Throwable"
+            key="error.exception.message"
+            path="/error-page.jsp?code=exception&amp;exception=true"
+            scope="request" />
+    </global-exceptions>
+
+    <global-forwards>
+        
+        <forward
+            name="user.manager"
+            path="/UserManager/UserManager.do"
+            redirect="false" />
+    </global-forwards>
+
+    <action-mappings>
+        <!-- action-mappings merge-point -->
+        <action
+            path="/UserManager/UserManagerDelete"
+            type="cn.edu.uestc.appstore.web.UserManagerDelete"
+            name="userManagerUserManagerDeleteForm"
+            scope="request"
+            input="/cn/edu/uestc/appstore/web/user-manager.jsp"
+            unknown="false"
+            validate="true">
+            <exception
+                handler="org.andromda.presentation.bpm4struts.PatternMatchingExceptionHandler"
+                type="java.lang.Exception"
+                key="user.manager.user.manager.delete.exception"
+                path="/cn/edu/uestc/appstore/web/user-manager.jsp"
+                scope="request" />
+            <forward
+                name="user.manager"
+                path="/cn/edu/uestc/appstore/web/user-manager.jsp"
+                redirect="false" />
+        </action>
+        <action
+            path="/UserManager/UserManagerEdit"
+            type="cn.edu.uestc.appstore.web.UserManagerEdit"
+            name="userManagerUserManagerEditForm"
+            scope="request"
+            input="/cn/edu/uestc/appstore/web/user-manager.jsp"
+            unknown="false"
+            validate="true">
+            <exception
+                handler="org.andromda.presentation.bpm4struts.PatternMatchingExceptionHandler"
+                type="java.lang.Exception"
+                key="user.manager.user.manager.edit.exception"
+                path="/cn/edu/uestc/appstore/web/user-manager.jsp"
+                scope="request" />
+            <forward
+                name="user.detail"
+                path="/cn/edu/uestc/appstore/web/user-detail.jsp"
+                redirect="false" />
+        </action>
+        <action
+            path="/UserManager/UserManager"
+            type="cn.edu.uestc.appstore.web.UserManager"
+            name="userManagerUserManagerForm"
+            scope="request"
+            unknown="false"
+            validate="false">
+            <forward
+                name="user.manager"
+                path="/cn/edu/uestc/appstore/web/user-manager.jsp"
+                redirect="false" />
+        </action>
+        <action
+            path="/calendar"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/calendar-js.jsp"/>
+        <action
+            path="/formValidation"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/form-validation.jsp"/>
+        <action
+            path="/login"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/login/login-form.jsp"/>
+    </action-mappings>
+
+    <!-- controller merge point -->
+
+    <!-- message-resources merge-point -->
+    <message-resources parameter="application-resources" null="false"/>
+
+    <!-- plug-in merge-point -->
+    <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property property="pathnames" value="/WEB-INF/validation.xml,/WEB-INF/validator-rules.xml"/>
+        <set-property property="stopOnFirstError" value="false"/>
+    </plug-in>
+
+    <plug-in className="org.apache.struts.tiles.TilesPlugin">
+        <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml"/>
+        <set-property property="definitions-parser-validate" value="true"/>
+        <set-property property="moduleAware" value="true"/>
+    </plug-in>
+
+<!--
+  UNCOMMENT TO EXPOSE THE STRUTS-MENU TAGLIB
+
+    <plug-in className="net.sf.navigator.menu.MenuPlugIn">
+        <set-property property="menuConfig" value="/WEB-INF/menu-config.xml"/>
+    </plug-in>
+-->
+</struts-config>
