@@ -84,11 +84,11 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>${application.id}-${pom.version}</finalName>
+        <finalName>${application.id}</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
-                <targetPath>../${pom.artifactId}-${pom.version}</targetPath>
+                <targetPath>../${pom.artifactId}</targetPath>
                 <filtering>true</filtering>
             </resource>
         </resources>
@@ -112,7 +112,11 @@
                             </fileset>
                             <fileset dir="${pom.basedir}/src/main">
                                 <include name="css/**"/>
-                                <include name="images/**"/>
+                                <include name="img/**"/>
+                                <include name="js/**"/>
+                                <include name="layout/**"/>
+                                <include name="WEB-INF/**"/>
+                                <include name="taglib-imports.jspf"/>
                             </fileset>
                         </copy>
                     </tasks>

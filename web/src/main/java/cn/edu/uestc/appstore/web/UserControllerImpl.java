@@ -16,7 +16,7 @@ public class UserControllerImpl extends UserController
      */
     public final void populateUserScreen(ActionMapping mapping, cn.edu.uestc.appstore.web.PopulateUserScreenForm form, HttpServletRequest request, HttpServletResponse response) throws Exception
     {
-        // nothing to be done for this operation, there are no properties that can be set
+    	((UserManagerFormImpl) form).setUserVOs(this.getUserService().getAllUsers());
     }
 
     /**
