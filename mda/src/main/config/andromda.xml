@@ -65,6 +65,7 @@
                 <property name="service-interfaces">${common.generated.dir}</property>
                 <property name="criteria">${common.generated.dir}</property>
                 <property name="value-objects">${common.generated.dir}</property>
+                <property name="open-session-in-view">${core.generated.dir}</property>
             </properties>
         </namespace>
         <namespace name="hibernate">
