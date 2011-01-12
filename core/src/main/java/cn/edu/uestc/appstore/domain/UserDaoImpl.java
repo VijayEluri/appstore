@@ -17,7 +17,6 @@ public class UserDaoImpl
         cn.edu.uestc.appstore.domain.User source,
         cn.edu.uestc.appstore.vo.UserVO target)
     {
-    	target.setUserId(source.getId());
         super.toUserVO(source, target);
     }
 
@@ -39,17 +38,13 @@ public class UserDaoImpl
      */
     private cn.edu.uestc.appstore.domain.User loadUserFromUserVO(cn.edu.uestc.appstore.vo.UserVO userVO)
     {
-        // @todo implement loadUserFromUserVO
-        throw new java.lang.UnsupportedOperationException("cn.edu.uestc.appstore.domain.loadUserFromUserVO(cn.edu.uestc.appstore.vo.UserVO) not yet implemented.");
-
-        /* A typical implementation looks like this:
         cn.edu.uestc.appstore.domain.User user = this.load(userVO.getId());
         if (user == null)
         {
             user = cn.edu.uestc.appstore.domain.User.Factory.newInstance();
         }
         return user;
-        */
+
     }
 
     

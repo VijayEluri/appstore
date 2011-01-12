@@ -76,13 +76,12 @@ public class UserServiceTest {
 	}
 	
 	@Test
-	public void deleteUser(){
-		
+	public void deleteUserByName(){		
 		String username = "testReg";
 		UserVO userVO = userService.getUser(username);
-		
-		userService.deleteUser(userVO.getUserId());
-		logger.info( "testDeleteUser - id:"+userVO.getUserId());
+		userService.deleteUser(userVO.getId());
+		logger.info("testDeleteUser - id:" + userVO.getId());
+
 	}
 	
 	@Test

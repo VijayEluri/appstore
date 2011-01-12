@@ -24,17 +24,18 @@ public class UserControllerImpl extends UserController
      */
     public final void deleteUser(ActionMapping mapping, cn.edu.uestc.appstore.web.DeleteUserForm form, HttpServletRequest request, HttpServletResponse response) throws Exception
     {
-        // this property receives a default value, just to have the application running on dummy data
-        form.setUserId(new Long((long)-836030906));
+    	System.out.println(form.getId());
+        this.getUserService().deleteUser(form.getId());
     }
 
     /**
-     * @see cn.edu.uestc.appstore.web.UserController#editUser(org.apache.struts.action.ActionMapping, cn.edu.uestc.appstore.web.EditUserForm, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+     * @see cn.edu.uestc.appstore.web.UserController#initializeUserId(org.apache.struts.action.ActionMapping, cn.edu.uestc.appstore.web.InitializeUserIdForm, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
      */
-    public final void editUser(ActionMapping mapping, cn.edu.uestc.appstore.web.EditUserForm form, HttpServletRequest request, HttpServletResponse response) throws Exception
+    public final void initializeUserId(ActionMapping mapping, cn.edu.uestc.appstore.web.InitializeUserIdForm form, HttpServletRequest request, HttpServletResponse response) throws Exception
     {
         // this property receives a default value, just to have the application running on dummy data
-        form.setUserId(new Long((long)-836030906));
+        form.setId(new Long((long)3355));
+        
     }
 
     /**

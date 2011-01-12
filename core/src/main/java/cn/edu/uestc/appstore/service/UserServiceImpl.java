@@ -6,6 +6,7 @@
 package cn.edu.uestc.appstore.service;
 
 import java.util.Collection;
+import java.util.Date;
 
 import cn.edu.uestc.appstore.domain.UserDao;
 import cn.edu.uestc.appstore.vo.UserVO;
@@ -33,8 +34,7 @@ public class UserServiceImpl
     protected  cn.edu.uestc.appstore.vo.UserVO handleGetUser(java.lang.String username)
         throws java.lang.Exception
     {
-        // @todo implement protected  cn.edu.uestc.appstore.vo.UserVO handleGetUser(java.lang.String username)
-        throw new java.lang.UnsupportedOperationException("cn.edu.uestc.appstore.service.UserService.handleGetUser(java.lang.String username) Not implemented!");
+    	return (UserVO) this.getUserDao().findByUsername(UserDao.TRANSFORM_USERVO, username);
     }
 
     /**
@@ -43,8 +43,13 @@ public class UserServiceImpl
     protected  void handleRegUser(java.lang.String username, java.lang.String password)
         throws java.lang.Exception
     {
-        // @todo implement protected  void handleRegUser(java.lang.String username, java.lang.String password)
-        throw new java.lang.UnsupportedOperationException("cn.edu.uestc.appstore.service.UserService.handleRegUser(java.lang.String username, java.lang.String password) Not implemented!");
+    	UserVO userVO = new UserVO();
+    	userVO.setUsername(username);
+    	userVO.setPassword(password);
+    	userVO.setCreateTime(new Date());
+    	userVO.setPoint(0.0);
+    	//userVO.setRole();
+    	this.getUserDao().create(this.getUserDao().userVOToEntity(userVO));
     }
 
     /**
@@ -52,9 +57,8 @@ public class UserServiceImpl
      */
     protected  void handleDeleteUser(java.lang.Long userId)
         throws java.lang.Exception
-    {
-        // @todo implement protected  void handleDeleteUser(java.lang.Long userId)
-        throw new java.lang.UnsupportedOperationException("cn.edu.uestc.appstore.service.UserService.handleDeleteUser(java.lang.Long userId) Not implemented!");
+    {    	
+    	this.getUserDao().remove(userId);
     }
 
     /**
@@ -63,8 +67,7 @@ public class UserServiceImpl
     protected  void handleUpdateUser(cn.edu.uestc.appstore.vo.UserVO userVO)
         throws java.lang.Exception
     {
-        // @todo implement protected  void handleUpdateUser(cn.edu.uestc.appstore.vo.UserVO userVO)
-        throw new java.lang.UnsupportedOperationException("cn.edu.uestc.appstore.service.UserService.handleUpdateUser(cn.edu.uestc.appstore.vo.UserVO userVO) Not implemented!");
+    	this.getUserDao().update(this.getUserDao().userVOToEntity(userVO));
     }
 
     /**

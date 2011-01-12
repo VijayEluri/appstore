@@ -23,9 +23,9 @@ public class UserVOComparator implements Comparator<UserVO> {
             // Both not-null, compare usernames
             result = o1.getUsername().compareTo(o2.getUsername());
         }
-        else if ((o1.getUserId() != null) && (o2.getUserId() != null)) {
+        else if ((o1.getId() != null) && (o2.getId() != null)) {
             // Both not-null but no names, check id's
-            result = o1.getUserId().compareTo(o2.getUserId());
+            result = o1.getId().compareTo(o2.getId());
         }
 
         return result;
